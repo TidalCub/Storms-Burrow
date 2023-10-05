@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, redirect, url_for, flash, session, jsonify
-from stormsburrow import app
+from StormsBurrow import app
 
 @app.route('/')
 def hello():
