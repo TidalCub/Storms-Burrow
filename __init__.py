@@ -7,4 +7,4 @@ app = Flask(__name__)
 
 #app.config['SECRET_KEY'] = config.get('SECRET_KEY')
 
-from storms_burrow import routes
+from stormsburrow import routes
