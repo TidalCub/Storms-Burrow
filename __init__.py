@@ -1,6 +1,5 @@
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
-from flask_login import LoginManager
 import json
 import urllib3
 
@@ -11,4 +10,4 @@ app = Flask(__name__)
 
 #app.config['SECRET_KEY'] = config.get('SECRET_KEY')
 
-from flask_app import routes
+from storms-burrow import routes
